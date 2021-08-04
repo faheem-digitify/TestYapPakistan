@@ -1,12 +1,12 @@
-package com.digitify.testyappakistan.onboarding
+package com.yap.yappk.onboarding
 
 import android.os.Bundle
 import androidx.activity.viewModels
-import com.digitify.testyappakistan.BR
-import com.digitify.testyappakistan.R
-import com.digitify.testyappakistan.databinding.ActivityMainBinding
 import com.yap.core.base.BaseActivity
 import com.yap.core.extensions.toast
+import com.yap.yappk.BR
+import com.yap.yappk.R
+import com.yap.yappk.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

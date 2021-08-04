@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestYapPakistan">
         <activity
-            android:name=".onboarding.MainActivity"
+            android:name=".onboarding.DemoMainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.TestYapPakistan.NoActionBar">
             <intent-filter>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yap.yappk">
+
+    <application>
+        <activity android:name=".onboarding.MainActivity" />
+    </application>
+</manifest>
