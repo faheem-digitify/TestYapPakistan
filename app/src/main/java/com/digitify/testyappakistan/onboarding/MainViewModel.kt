@@ -2,8 +2,11 @@ package com.digitify.testyappakistan.onboarding
 
 import com.yap.core.base.BaseViewModel
 import com.yap.core.base.SingleClickEvent
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 
-class MainViewModel : BaseViewModel<IMain.State>(), IMain.ViewModel {
+@HiltViewModel
+class MainViewModel @Inject constructor() : BaseViewModel<IMain.State>(), IMain.ViewModel {
     override val viewState: IMain.State = MainState()
-    override val clickEvent: SingleClickEvent  = SingleClickEvent()
+    override val clickEvent: SingleClickEvent = SingleClickEvent()
 }
