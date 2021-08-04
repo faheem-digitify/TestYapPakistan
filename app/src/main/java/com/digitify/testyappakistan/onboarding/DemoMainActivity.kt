@@ -7,7 +7,7 @@ import com.digitify.testyappakistan.BR
 import com.digitify.testyappakistan.R
 import com.digitify.testyappakistan.databinding.DemoActivityMainBinding
 import com.yap.core.base.BaseActivity
-import com.yap.yappk.onboarding.MainActivity
+import com.yap.yappk.onboarding.YapPkMainActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -20,7 +20,7 @@ class DemoMainActivity : BaseActivity<DemoActivityMainBinding, IMain.State, IMai
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mViewBinding.fab.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, YapPkMainActivity::class.java)
             startActivity(intent)
         }
     }

@@ -3,6 +3,6 @@
     package="com.yap.yappk">
 
     <application>
-        <activity android:name=".onboarding.MainActivity" />
+        <activity android:name=".onboarding.YapPkMainActivity" />
     </application>
 </manifest>
