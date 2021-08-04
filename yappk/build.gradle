@@ -47,7 +47,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
     // yap core
-    implementation 'com.github.faheem-digitify:base:0.0.3'
+    api 'com.github.faheem-digitify:base:0.0.3'
     // daggar hilt
     implementation 'com.google.dagger:hilt-android:2.37'
     kapt 'com.google.dagger:hilt-compiler:2.37'
