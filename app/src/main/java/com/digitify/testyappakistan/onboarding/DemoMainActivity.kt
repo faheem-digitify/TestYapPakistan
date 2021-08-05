@@ -10,6 +10,7 @@ import com.yap.core.base.BaseActivity
 import com.yap.yappk.onboarding.YapPkMainActivity
 import dagger.hilt.android.AndroidEntryPoint
 
+
 class DemoMainActivity : BaseActivity<DemoActivityMainBinding, IMain.State, IMain.ViewModel>(),
     IMain.View {
     override fun getLayoutId(): Int = R.layout.demo_activity_main

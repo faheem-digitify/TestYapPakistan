@@ -1,7 +1,6 @@
-package com.digitify.testyappakistan
+package com.yap.yappk
 
 import android.app.Application
-import com.yap.yappk.YapPKApplication
 import dagger.hilt.android.HiltAndroidApp
 
 
@@ -9,5 +8,5 @@ import dagger.hilt.android.HiltAndroidApp
 Created by Faheem Riaz on 04/08/2021.
  **/
 
-
-class PKApplication : YapPKApplication()
+@HiltAndroidApp
+open class YapPKApplication : Application()
